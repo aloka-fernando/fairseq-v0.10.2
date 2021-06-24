@@ -207,7 +207,7 @@ def do_setup(package_data):
             'numpy; python_version>="3.7"',
             "regex",
             "sacrebleu>=1.4.12",
-            "torch=1.6",
+            "torch==1.6",
             "tqdm",
         ],
         dependency_links=dependency_links,
